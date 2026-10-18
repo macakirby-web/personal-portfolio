@@ -215,7 +215,7 @@ span {
 }
 
 .hero-image {
-    max-width: 360px;
+    max-width: 450px;
     width: 100%;
     margin: auto;
     position: relative;
@@ -227,10 +227,11 @@ span {
 
 .hero-image img {
     width: 100%;
-    aspect-ratio: 1;
-    object-fit: cover;
-    border-radius: 50%;
-    background: #ddd8ff;
+    max-width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+    border-radius: 100%;
+    background: #101027;
 }
 
 .image-label {
@@ -271,7 +272,7 @@ span {
     margin: auto;
 }
 
-/* ABOUT */
+
 .about-grid {
     display: grid;
     grid-template-columns: 1.1fr 0.9fr;
@@ -398,7 +399,6 @@ span {
     text-align: center;
 }
 
-/* PROJECTS */
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -478,7 +478,6 @@ span {
     border-radius: 5px;
 }
 
-/* ACHIEVEMENTS */
 .achievement-list {
     max-width: 800px;
     margin: auto;
