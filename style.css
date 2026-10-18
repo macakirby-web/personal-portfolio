@@ -214,15 +214,12 @@ span {
     color: var(--secondary);
 }
 
-.hero-image {
-    max-width: 450px;
+.hero-image img {
     width: 100%;
-    margin: auto;
-    position: relative;
-    padding: 25px;
-    border: 1px solid #3b3561;
-    border-radius: 50% 50% 25px 25px;
-    background: linear-gradient(145deg, #202342, #121a2d);
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 50%;
+    background: #ddd8ff;
 }
 
 .hero-image img {
